@@ -64,7 +64,7 @@ async def roll(ctx,ip):
 
         
         await ctx.send(embed=embed)  
-@app.command(name='vote')
+'''@app.command(name='vote')
 async def vote(ctx,description,one,two):
     
     embed = discord.Embed(title=f"투표", color=0x62c1cc)
@@ -75,7 +75,7 @@ async def vote(ctx,description,one,two):
     msg = await ctx.send(embed=embed)  
     await msg.add_reaction('1️⃣')
     await msg.add_reaction('2️⃣')
-
+'''
 @app.command(name='s')
 async def roll(ctx):
     try:
@@ -101,4 +101,4 @@ async def roll(ctx):
         
         await ctx.send(embed=embed)  
 
-app.run('Nzc4NTU3NTI1NzEyMDQ0MDQy.GbPDKM.aBQr78E13c7PJiNwemQpBhOVRIUnNTvjweG35A')
+app.run('TOKEN')
